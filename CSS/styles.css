@@ -1,0 +1,319 @@
+/* HTML */
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Navbar */
+.nav-logo {
+    height: 3.5rem;
+    width: 22rem;
+}
+
+.btn {
+    margin-right: 30px;
+    background-color: black;
+}
+
+.nav-link {
+    font-weight: 200;
+    /* margin: 0 -23%; */
+    font-size: 1.3rem;
+    padding: 0 5%;
+}
+
+/* .navbar-nav { */
+/* margin: 0 23%; */
+/* } */
+
+#Nav-About {
+    border: 1px solid white !important;
+}
+
+#Nav-About:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+/* Intro carousel */
+.intro-img {
+    height: 86vh;
+}
+
+.carousel-caption {
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1e-11rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.car-head {
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1e-11rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1e-11rem;
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+
+
+
+/* Campus Section */
+.campus {
+    text-align: center;
+    margin: 5% 3% 2% 3%;
+}
+
+.campus h3 {
+    font-size: 4.5rem;
+    margin-bottom: 3%;
+    font-family: 'Macondo', cursive;
+}
+
+.campus-img-size {
+    width: 70%;
+    height: 70%;
+    border-radius: 2%;
+}
+
+.img-box {
+    padding: 1% 1% 0 1%;
+}
+
+.campus p {
+    padding: 4%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+/* Friends Section */
+.friends {
+    background-color: #a4bdc7;
+    text-align: center;
+}
+
+.friends h4 {
+    text-align: right;
+    display: block;
+    font-size: 3.5rem;
+    padding: 3% 0;
+    margin-right: 4rem;
+    font-family: 'Macondo', cursive;
+}
+
+.friends h2 {
+    text-align: left;
+    display: block;
+    font-size: 7.5rem;
+    margin-left: 6rem;
+    font-family: 'Macondo', cursive;
+}
+
+.friends-col {
+    padding-bottom: 70px;
+}
+
+.friends-cont {
+    margin-top: 5%;
+}
+
+.friends .row {
+    margin-left: 0;
+}
+
+/* bubble styling */
+.bubble {
+    border: 2px solid black;
+    padding: 5%;
+    margin: 5%;
+    margin-left: 10%;
+    border-radius: 100%;
+    font-size: 1.9rem;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 900;
+}
+
+.bubble:hover {
+    background-color: white;
+}
+
+
+
+
+
+/* sports section  */
+.sports {
+    text-align: center;
+}
+
+.sports h2 {
+    margin: 5%;
+    font-size: 4.5rem;
+    font-family: 'Macondo', cursive;
+}
+
+.sports p {
+    font-size: 2rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.sports-p1 {
+    text-align: left;
+}
+
+.sports-p2 {
+    text-align: right;
+}
+
+.sports-img {
+    height: 11rem;
+    width: 11rem;
+    border-radius: 100%;
+}
+
+.sports-row {
+    margin: 5%;
+}
+
+/* ranchi slides */
+.ranchi {
+    background-color: #a4bdc7;
+    text-align: center;
+}
+
+.ranchi h2 {
+    margin: 3%;
+    padding-top: 40px;
+    font-size: 4.5rem;
+    font-family: 'Macondo', cursive;
+}
+
+.ranchi video {
+    height: 550px;
+    width: 304px;
+    border-radius: 5%;
+    padding-bottom: 10%;
+}
+
+
+
+/* Footer Section */
+.fsec {
+    text-align: center;
+}
+
+.fsec h2 {
+    margin: 5% 0 0 0;
+    font-size: 4.5rem;
+    font-family: 'Macondo', cursive;
+}
+
+.fsec h4 {
+    margin: 0 0 5% 0;
+    font-size: 2.5rem;
+    font-family: 'Macondo', cursive;
+}
+
+.fsec img {
+    margin: 2% 2%;
+}
+
+
+/* copyright section  */
+footer {
+    margin-top: 1%;
+}
+
+footer h5 {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 0px;
+
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width : 853px) and (min-width : 758px) {
+    .nav-link {
+        font-weight: 200;
+        font-size: 0.9rem;
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width : 764px) {
+    .campus p {
+        padding: 4%;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 0.6rem;
+    }
+}
+
+
+@media screen and (max-width : 454px) {
+    .nav-logo {
+        height: 2.1rem;
+        width: 11rem;
+    }
+}
+
+
+@media screen and (max-width : 500px) {
+    .sports p {
+        font-size: 1rem;
+        font-family: 'Titillium Web', sans-serif;
+    }
+}
+
+@media screen and (max-width : 590px) {
+    .friends h2 {
+        text-align: left;
+        display: block;
+        font-size: 3.5rem;
+        margin-left: 1rem;
+        font-family: 'Macondo', cursive;
+    }
+
+    .bubble {
+        border: 2px solid black;
+        padding: 5%;
+        margin: 5%;
+        margin-left: 10%;
+        border-radius: 100%;
+        font-size: 0.9rem;
+        font-family: 'Grape Nuts', cursive;
+        font-weight: 900;
+    }
+}
